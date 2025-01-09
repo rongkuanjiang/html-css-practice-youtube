@@ -1,0 +1,47 @@
+.header {
+	height: 55px;
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+}
+
+.left-part {
+	display: flex;
+	background-color: lightblue;
+	align-items: center;
+}
+
+.three-bars {
+	align-items: center;
+}
+
+.youtube-icon {
+	align-items: center;
+	height: 40px;
+}
+
+.middle-part {
+	flex: 1;
+	display: flex;
+	max-width: 750px;
+	margin-left: 70px;
+	margin-right: 35px;
+	background-color: blue;
+	align-items: center;
+}
+
+.search-bar {
+	border-radius: 10.45px;
+	height: 36px;
+	flex: 1;
+}
+
+
+.right-part {
+	width: 350px;
+	background-color: lightblue;
+}
+
