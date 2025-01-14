@@ -8,116 +8,159 @@
 		<link rel="stylesheet" href="./styles/youtube-clone-css.css">
 		<link rel="stylesheet" href="./styles/header.css">
 		<link rel="stylesheet" href="./styles/general.css">
+		<link rel="stylesheet" href="./styles/sidebar.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	</head>
 	<body>
-		<nav class="header">
+		<header class="header">
 			<div class="header-left-part">
-				<img src="./icons/3bars.svg">
-				<img src="./icons/youtubeicon.svg">
+				<div class="three-bar-icon">
+					<img src="./icons/3bars.svg">
+				</div>
+				<div class="youtube-icon">
+					<a href="./youtube-clone.html">
+						<img src="./icons/youtubeicon.svg">
+					</a>
+				</div>
 			</div>
 			<div class="header-middle-part">
 				<input class="search-bar" type="text" placeholder="Search">
+				<div class="search-icon">
+					<img src="./icons/search.svg">
+				</div>
+				<div class="microphone">
+					<img src="./icons/microphone.svg">
+				</div>
 			</div>
 			<div class="header-right-part">
-				233424	
+				<div> 
+					<img class="header-right-part-icon" src="./icons/upload.svg">
+				</div>
+				<div> 
+					<img class="header-right-part-icon" src="./icons/youtube-apps.svg">
+				</div>
+				<div> 
+					<img class="header-right-part-icon" src="./icons/notifications.svg">
+				</div>
+				<div>
+					<img class="user-profile-photo" src="./data/profile photos/unnamed.png">
+				</div>
+			</div>
+		</header>
+		<nav class="sidebar">
+			<div class="sidebar-icon">
+				<img src="./icons/home.svg">
+			</div>
+			<div class="sidebar-icon">
+				<img src="./icons/explore.svg">
+			</div>
+			<div class="sidebar-icon">
+				<img src="./icons/subscriptions.svg">
+			</div>
+			<div class="sidebar-icon">
+				<img src="./icons/originals.svg">
+			</div>
+			<div class="sidebar-icon">
+				<img src="./icons/youtube-music.svg">
 			</div>
 		</nav>
 		
-		<div class="row-of-videos">
-			<div class="video-preview">
-				<div class="image-preview">
-					<img src="./data/thumbnails/mrbeast.avif">
-				</div>
-				<div class="video-info">
-					<div class="profile-picture">
-						<img src="./data/profile photos/mrbeast.jpg">
+		<main>
+			<div class="row-of-videos">
+				<div class="video-preview">
+					<div class="image-preview">
+						<img src="./data/thumbnails/mrbeast.avif">
 					</div>
-					<div class="video-description">
-						<h3 class="video-title">2,000 People Fight For $5,000,000</h3>
-						<p class="channel">MrBeast</p>
-						<p class="video-stats">144M views	3 weeks ago</p>
-					</div>
-				</div>
-			</div>
-			<div class="video-preview">
-				<div class="image-preview">
-					<img src="./data/thumbnails/trynottolaugh.avif">
-				</div>
-				<div class="video-info">
-					<div class="profile-picture">
-						<img src="./data/profile photos/trynottolaugh.jpg">
-					</div>
-					<div class="video-description">
-						<h3 class="video-title">you laugh 4 times, you lose</h3>
-						<p class="channel">The Meme Sheep</p>
-						<p class="video-stats">11M views	2 years ago</p>
+					<div class="video-info">
+						<div class="profile-picture">
+							<img src="./data/profile photos/mrbeast.jpg">
+						</div>
+						<div class="video-description">
+							<h3 class="video-title">2,000 People Fight For $5,000,000</h3>
+							<p class="channel">MrBeast</p>
+							<p class="video-stats">144M views · 3 weeks ago</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="video-preview">
-				<div class="image-preview">
-					<img src="./data/thumbnails/thumbnail-4.webp">
-				</div>
-				<div class="video-info">
-					<div class="profile-picture">
-						<img src="./data/profile photos/veritasium.jpeg">
+				<div class="video-preview">
+					<div class="image-preview">
+						<img src="./data/thumbnails/trynottolaugh.avif">
 					</div>
-					<div class="video-description">
-						<h3 class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</h3>
-						<p class="channel">Veritasium</p>
-						<p class="video-stats">42M views	3 years ago</p>
+					<div class="video-info">
+						<div class="profile-picture">
+							<img src="./data/profile photos/trynottolaugh.jpg">
+						</div>
+						<div class="video-description">
+							<h3 class="video-title">you laugh 4 times, you lose</h3>
+							<p class="channel">The Meme Sheep</p>
+							<p class="video-stats">11M views · 2 years ago</p>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="row-of-videos">
-			<div class="video-preview">
-				<div class="image-preview">
-					<img src="https://i.ytimg.com/vi/i6ZCwRzvWzE/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGEgZShHMA8=&rs=AOn4CLBbpZP5kFZuOlaN6J7qwgwH6xcqwg">
-				</div>
-				<div class="video-info">
-					<div class="profile-picture">
-						<img src="https://yt3.ggpht.com/jpUk2LypsVgQhHlvFLRPq_knQbM5MJSmuIrP7p2lUT5e3pA9pCaddTUYJ5kEGHxoMP8wIjDp=s68-c-k-c0x00ffffff-no-rj">
+				<div class="video-preview">
+					<div class="image-preview">
+						<img src="./data/thumbnails/thumbnail-4.webp">
 					</div>
-					<div class="video-description">
-						<h3 class="video-title">i was the girl right by ur side</h3>
-						<p class="channel">eto</p>
-						<p class="video-stats">350K views	2 years ago</p>
+					<div class="video-info">
+						<div class="profile-picture">
+							<img src="./data/profile photos/veritasium.jpeg">
+						</div>
+						<div class="video-description">
+							<h3 class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</h3>
+							<p class="channel">Veritasium</p>
+							<p class="video-stats">42M views · 3 years ago</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="video-preview">
-				<div class="image-preview">
-					<img src="./data/thumbnails/differentheaven.avif">
-				</div>
-				<div class="video-info">
-					<div class="profile-picture">
-						<img src="./data/profile photos/ncs.jpg">
+			<div class="row-of-videos">
+				<div class="video-preview">
+					<div class="image-preview">
+						<img src="https://i.ytimg.com/vi/i6ZCwRzvWzE/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGEgZShHMA8=&rs=AOn4CLBbpZP5kFZuOlaN6J7qwgwH6xcqwg">
 					</div>
-					<div class="video-description">
-						<h3 class="video-title">Different Heaven & EH!DE - My Heart | Drumstep | NCS - Copyright Free Music</h3>
-						<p class="channel">NoCopyrightSounds</p>
-						<p class="video-stats">277M views	11 years ago</p>
-					</div>
-				</div>
-			</div>
-			<div class="video-preview">
-				<div class="image-preview">
-					<img src="./data/thumbnails/pewdiepie.avif">
-				</div>
-				<div class="video-info">
-					<div class="profile-picture">
-						<img src="./data/profile photos/pewdiepie.jpg">
-					</div>
-					<div class="video-description">
-						<h3 class="video-title">bitch lasagna</h3>
-						<p class="channel">PewDiePie</p>
-						<p class="video-stats">324M views	6 years ago</p>
+					<div class="video-info">
+						<div class="profile-picture">
+							<img src="https://yt3.ggpht.com/jpUk2LypsVgQhHlvFLRPq_knQbM5MJSmuIrP7p2lUT5e3pA9pCaddTUYJ5kEGHxoMP8wIjDp=s68-c-k-c0x00ffffff-no-rj">
+						</div>
+						<div class="video-description">
+							<h3 class="video-title">i was the girl right by ur side</h3>
+							<p class="channel">eto</p>
+							<p class="video-stats">350K views · 2 years ago</p>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>		
+				<div class="video-preview">
+					<div class="image-preview">
+						<img src="./data/thumbnails/differentheaven.avif">
+					</div>
+					<div class="video-info">
+						<div class="profile-picture">
+							<img src="./data/profile photos/ncs.jpg">
+						</div>
+						<div class="video-description">
+							<h3 class="video-title">Different Heaven & EH!DE - My Heart | Drumstep | NCS - Copyright Free Music</h3>
+							<p class="channel">NoCopyrightSounds</p>
+							<p class="video-stats">277M views ·	11 years ago</p>
+						</div>
+					</div>
+				</div>
+				<div class="video-preview">
+					<div class="image-preview">
+						<img src="./data/thumbnails/pewdiepie.avif">
+					</div>
+					<div class="video-info">
+						<div class="profile-picture">
+							<img src="./data/profile photos/pewdiepie.jpg">
+						</div>
+						<div class="video-description">
+							<h3 class="video-title">bitch lasagna</h3>
+							<p class="channel">PewDiePie</p>
+							<p class="video-stats">324M views · 6 years ago</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</main>	
 	</body>
 </html>

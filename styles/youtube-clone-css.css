@@ -1,3 +1,9 @@
+main {
+	margin-left: 85px;
+	margin-top: 80px;
+	background-color: rgb(240, 240, 240);
+}
+
 
 .row-of-videos {
 	display: flex;
